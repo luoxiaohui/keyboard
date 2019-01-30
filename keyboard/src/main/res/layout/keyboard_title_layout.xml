@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/keyboard_title_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/secure_logo"
+            android:text="@string/keyboard_title"
+            android:textColor="@color/keyboardTitle"
+            android:textSize="@dimen/keyboard_title_size" />
+
+        <ImageView
+            android:id="@+id/buttonHide"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/keyboard_padding"
+            android:scaleType="centerInside"
+            android:src="@drawable/keyboard_close" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/keyboard_stroke" />
+    </RelativeLayout>
+</RelativeLayout>

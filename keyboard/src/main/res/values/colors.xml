@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="keyboard_normal">#3F51B5</color>
+    <color name="keyboard_pressed">#303F9F</color>
+
+    <color name="keyboardTitle">#333333</color>
+    <color name="keyboard_bg_normal">#fbfbfb</color>
+    <color name="keyboard_bg_pressed">#f5f5f5</color>
+    <color name="keyboard_stroke">#f0f0f0</color>
+    <color name="keyboard_title_bg">#fff</color>
+    <color name="keyboard_textLight">#ffffff</color>
+</resources>

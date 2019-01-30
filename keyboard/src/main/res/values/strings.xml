@@ -1,0 +1,19 @@
+<resources>
+    <string name="keyboard_confirm">确定</string>
+    <string name="keyboard_title">数字键盘</string>
+    <string name="keyboard_finish">完成</string>
+    <string name="keyboard_number_1">1</string>
+    <string name="keyboard_number_2">2</string>
+    <string name="keyboard_number_3">3</string>
+    <string name="keyboard_number_4">4</string>
+    <string name="keyboard_number_5">5</string>
+    <string name="keyboard_number_6">6</string>
+    <string name="keyboard_number_7">7</string>
+    <string name="keyboard_number_8">8</string>
+    <string name="keyboard_number_9">9</string>
+    <string name="keyboard_number_dot">.</string>
+    <string name="keyboard_number_0">0</string>
+    <string name="keyboard_number_00">00</string>
+    <string name="keyboard_number_x">X</string>
+    <string name="keyboard_number_plus">+</string>
+</resources>

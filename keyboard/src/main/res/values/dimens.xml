@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyboard_height">224dp</dimen>
+    <dimen name="keyboard_key_size">20dp</dimen>
+    <dimen name="keyboard_padding">12dp</dimen>
+    <dimen name="keyboard_title_size">14dp</dimen>
+
+
+    <dimen name="keyboard_key_height">28dp</dimen>
+    <dimen name="keyboard_key_margin">0.35dp</dimen>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="KeyboardAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/keyboard_enter</item>
+        <item name="android:windowExitAnimation">@anim/keyboard_exit</item>
+    </style>
+
+    <style name="KeyboardStyle" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_height">@dimen/keyboard_key_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/keyboard_key_margin</item>
+        <item name="android:background">@drawable/keyboard_key_bg</item>
+        <item name="android:clickable">true</item>
+        <item name="android:keyPreviewLayout">@null</item>
+        <item name="layout_rowWeight">1</item>
+        <item name="layout_columnWeight">1</item>
+        <item name="android:textColor">@color/keyboard_key_text</item>
+        <item name="android:textSize">@dimen/keyboard_key_size</item>
+    </style>
+</resources>

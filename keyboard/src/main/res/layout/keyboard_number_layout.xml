@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/keyboard_stroke"
+    android:orientation="vertical">
+
+    <include layout="@layout/keyboard_title_layout" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gl_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:columnCount="4">
+
+        <Button
+            style="@style/KeyboardStyle"
+            android:tag="1"
+            android:text="@string/keyboard_number_1" />
+
+        <Button
+            style="@style/KeyboardStyle"
+            android:tag="2"
+            android:text="@string/keyboard_number_2" />
+
+        <Button
+            style="@style/KeyboardStyle"
+            android:tag="3"
+            android:text="@string/keyboard_number_3" />
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            style="@style/KeyboardStyle"
+            android:layout_height="56dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/keyboard_delete"
+            android:tag="delete"
+            android:tint="@color/keyboard_normal"
+            app:layout_rowSpan="2" />
+
+        <Button
+            style="@style/KeyboardStyle"
+            android:tag="4"
+            android:text="@string/keyboard_number_4" />
+
+        <Button
+            style="@style/KeyboardStyle"
+            android:tag="5"
+            android:text="@string/keyboard_number_5" />
+
+        <Button
+            style="@style/KeyboardStyle"
+            android:tag="6"
+            android:text="@string/keyboard_number_6" />
+
+
+        <Button
+            style="@style/KeyboardStyle"
+            android:tag="7"
+            android:text="@string/keyboard_number_7" />
+
+        <Button
+            style="@style/KeyboardStyle"
+            android:tag="8"
+            android:text="@string/keyboard_number_8" />
+
+        <Button
+            style="@style/KeyboardStyle"
+            android:tag="9"
+            android:text="@string/keyboard_number_9" />
+
+        <Button
+            android:id="@+id/btnDone"
+            style="@style/KeyboardStyle"
+            android:layout_height="56dp"
+            android:background="@drawable/keyboard_key_confirm_bg"
+            android:tag="enter"
+            android:text="@string/keyboard_finish"
+            android:textColor="@color/keyboard_textLight"
+            app:layout_rowSpan="2" />
+
+        <Button
+            android:id="@+id/btnX1"
+            style="@style/KeyboardStyle"
+            android:tag="."
+            android:text="@string/keyboard_number_dot" />
+
+        <Button
+            style="@style/KeyboardStyle"
+            android:tag="0"
+            android:text="@string/keyboard_number_0" />
+
+        <Button
+            android:id="@+id/btnX2"
+            style="@style/KeyboardStyle"
+            android:tag="00"
+            android:text="@string/keyboard_number_00" />
+    </android.support.v7.widget.GridLayout>
+
+</LinearLayout>
