@@ -1,3 +1,5 @@
+ [博客地址](https://blog.csdn.net/a394268045/article/details/86702363)
+
 # 1.效果图
 ![二维码生成和扫描效果图](./keyboard.gif)
 
